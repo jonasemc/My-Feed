@@ -1,7 +1,8 @@
 import { Header } from "./components/Header";
-import "./global.css";
-import styles from "./App.module.css";
 import { Sidebar } from "./components/Sidebar";
+import { Post } from "./components/Post";
+import styles from "./App.module.css";
+import "./global.css";
 
 function App() {
   return (
@@ -10,20 +11,8 @@ function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <h2>Jonas Miranda</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis
-            totam rem error impedit eos temporibus dolore at repellendus quasi
-            velit, repellat qui harum maiores earum fugiat est accusantium
-            illum.
-          </p>
-          <h2>Rodrigo Pacheco</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis
-            totam rem error impedit eos temporibus dolore at repellendus quasi
-            velit, repellat qui harum maiores earum fugiat est accusantium
-            illum.
-          </p>
+          <Post></Post>
+          <Post></Post>
         </main>
       </div>
     </div>
