@@ -12,6 +12,11 @@
   --orange-100: #f74012;
 }
 
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--orange);
+}
+
 * {
   margin: 0;
   padding: 0;
