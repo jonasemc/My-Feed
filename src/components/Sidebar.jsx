@@ -13,7 +13,7 @@ export function Sidebar() {
         <Avatar src="https://github.com/jonasemc.png" />
 
         <strong>Jonas Miranda</strong>
-        <span>Web Developer</span>
+        <span>Frontend Developer</span>
       </div>
 
       <footer>

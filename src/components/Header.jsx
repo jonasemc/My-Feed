@@ -5,7 +5,6 @@ export function Header() {
   return (
     <header className={styles.header}>
       <img src={logo} alt="logo da pagina" />
-      <strong>My Feed</strong>
     </header>
   );
 }
